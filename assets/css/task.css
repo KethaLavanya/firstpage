@@ -1,0 +1,52 @@
+.mainBlock{
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subBlock{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divBlock{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.incrementButtonBlock{
+        border-radius: 50%;
+    padding: 10px 13px;
+    background-color: #ff9100;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 10px #ffa500;
+}
+.decrementButtonBlock{
+        border-radius: 50%;
+    padding: 10px 12px;
+    background-color: #01c701;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 10px #06bf06;
+}
+.restartButtonBlock{
+   margin: 30px 0px 0px 0px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px gray;
+}
+.ri-restart-line{
+    font-size:20px ;
+}
